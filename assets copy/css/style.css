@@ -1,7 +1,29 @@
-body {background-image: url(../images/background.png);
+body 
+{
+    /* background-image: url(../images/background.png); */
+    /* background-color: rgb(102,102,102);
+    background-image: url(../images/logo2.png); */
+    margin: center;
+    width: 80%;
+    padding-left:10%;   
+}
+
+#homePage
+{
+    background-color: rgb(102,102,102);
+}
+.navBar
+{
+    height: 20px;
+}
+#logoImage{
+    opacity: 1;
 
 }
-#about {position: relative;
+#logoImage:hover {
+opacity: 0.5;
+}
+/* #about {position: relative;
     width: 100%;
     background:#ffffff;
     height:80px;
@@ -20,7 +42,7 @@ body {background-image: url(../images/background.png);
     float:left;
 }
 
-a.links:link: {
+a.links:link {
     color: #777777;
 }
 a.links:visited{
@@ -44,17 +66,29 @@ h1{
     word-spacing: 20px;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
-}
+} */
 
-.container {
-    width:960px;
-    padding: 20px;
-    margin: 0 auto;
-    position: center;
-    font-family: 'Georgia', Times, Times New Roman, serif;`
+/* #logoImage{
+    width: 10%;
+    height: 10%;
+} */
+.nav-wrapper 
+{
+    background-color:rgb(102,102,102);
+    margin: auto;
+    height: 30%;
+    /* width: 80%; */
+    /* padding: 20px;
+    margin: 0 auto; */
+    /* position: center; */
+    font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
-#footer{
+.card
+{
+    /* width: 30%; */
+}
+/* #footer{
     text-align: center;
     color:#ffffff;
     font-size: 12px;
@@ -297,15 +331,16 @@ position: relative;
     bottom: 70px;
 }
 .second-image
-{   height: 150px;
+{   
+    height: 150px;
     width: 250px;
     position: relative;
     bottom: 30px;
     
 }
-.game{ 
+.game
+{ 
     width: 220px;
-   
     position: relative;
     bottom: 100px;
 
@@ -519,4 +554,4 @@ position: relative;
 }
 
 
-    }
+    } */

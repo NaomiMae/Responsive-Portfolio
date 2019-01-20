@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(102,102,102);
+    margin: center;
+  
+   
+    
+}
+#logoImage{
+        opacity: 1;
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+#logoImage:hover {
+    opacity: 0.5;
+}

@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
-    <meta charset="UTF-8">
-    <title>About Naomi Johnson</title>
-    <link rel="stylesheet" type="text/css" href="assets copy/css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<body>
-
+        <head>
+                <meta charset="UTF-8">
+                <title>About Naomi Johnson</title>
+                <link rel="stylesheet" type="text/css" href="assets copy/css/style.css">
+                <!-- Compiled and minified CSS -->
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+                <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+                <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <script type="text/javascript" src="assets copy/Javascript/app.js"></script>
+                <meta charset="UTF-8">
+            
+            
+            <body>
+            
     </head>
     <!-- Navigation -->
 
@@ -18,19 +26,20 @@
         <STYLE>A {text-decoration: none;} </STYLE>
 
         <header id="about">
-                <div class="container">
-                    <a href="index.html" id="Naomi">Naomi Johnson</a>
+                <nav id="navBar">
+                    <div class="nav-wrapper" width="70%">
     
-                    <nav class="bar" id="links">
-    
-                        <a class="links" href="index.html">About |</a>
-                        <a class="links" href="portfolio.html">Portfolio |</a>
-                        <a class="links" href="contact.html">Contact</a>
-    
-    
-                    </nav>
-    
+                        <a href="home.html" id="Naomi" class="brand-logo center">
+                            <img id="logoImage" src="assets copy/images/logo2.png" width="20%" height="20%"></a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="index.html" class="animated bounce headShake">About</a></li>
+                            <li><a href="portfolio.html"class="animated bounce headShake">Portfolio </a></li>
+                            <li><a href="contact.html"class="animated bounce headShake">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
                 </div>
+    
     
             </header>
         <div id="bio" class="main">
@@ -38,7 +47,17 @@
 
             <h1>Contact</h1>
             <hr>
-            <form id="ContactMe">
+
+         
+                        
+
+
+            <form id="ContactMe"
+            
+            action="mailto:naomikaiena@gmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+            name="EmailTestForm">
                 <ul style="list-style-type:none">
                     <li>
                         <label for="name">Name</label>
@@ -57,15 +76,26 @@
                         <label for="message"></label>
 
                     </li>
-                </ul>
+                </ul>           
+                 <input type="submit" value="SUBMIT"  value="SUBMIT EMAIL TO: naomikaiena@gmail.com" href="mailto:naomikaiena@gmail.com">
+
             </form>
-            <button id="button" type="button">submit</button>
+                
+            
             </section>
 
         </div>
+
+
+
+
+
 
         <footer>
             <div class="container" id="footer">
                 Copyright &copy; 2018 Naomi Johnson
             </div>
         </footer>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
