@@ -23,6 +23,14 @@ body
 #logoImage:hover {
 opacity: 0.5;
 }
+.medium{
+color: rgb(211, 100, 160);
+}
+
+#linked{
+    color:rgb(102,102,102);
+    font-size: 50px;
+}
 /* #about {position: relative;
     width: 100%;
     background:#ffffff;
