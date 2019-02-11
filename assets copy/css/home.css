@@ -10,8 +10,27 @@ body {
         display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 60%;
 }
 #logoImage:hover {
     opacity: 0.5;
+}
+#butt{
+    opacity: 1;
+ display: block;
+margin-left: auto; 
+margin-right: auto;
+width: 30%;
+float: right;
+right: 100px;
+}
+#bttwo{
+    opacity: 1;
+ display: block;
+margin-left: auto; 
+margin-right: auto;
+width: 30%;
+/* float: left;
+left: 100px; */
+
 }
