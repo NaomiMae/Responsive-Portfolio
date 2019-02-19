@@ -1,3 +1,46 @@
+ .element {
+  height: 50px;
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  color: rgb(102,102,102);
+  font-size: 30px;
+  background-color:  rgb(102,102,102);
+  animation-name: stretch;
+  animation-duration: 3s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 1;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.8);
+    background-color: rgb(102,102,102);;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: black;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: rgb(211,100,160);;
+  }
+}
+
+body,
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 body {
     background-color: rgb(102,102,102);
     margin: center;
@@ -34,3 +77,4 @@ width: 30%;
 left: 100px; */
 
 }
+
