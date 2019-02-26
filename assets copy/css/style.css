@@ -6,6 +6,12 @@ body
     margin: center;
     width: 80%;
     padding-left:10%;   
+    background-image: url("/assets copy/images/backgroundfun.png");
+}
+    
+
+body {
+    background-image: url("/assets copy/images/backgroundfun.png");
 }
 
 #homePage
@@ -48,6 +54,9 @@ color: rgb(211, 100, 160);
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+  .card small{
+      color: #5f5f61; 
   }
 /* #about {position: relative;
     width: 100%;
