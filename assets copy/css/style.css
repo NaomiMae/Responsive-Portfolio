@@ -7,13 +7,9 @@ body
     width: 80%;
     padding-left:10%;   
     background-image: url("/assets copy/images/backgroundfun.png");
-    opacity: 0.2;
+
 }
     
-
-body {
-    background-image: url("/assets copy/images/backgroundfun.png");
-}
 
 #homePage
 {
