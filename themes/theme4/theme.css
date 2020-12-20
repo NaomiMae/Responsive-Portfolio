@@ -1,0 +1,16 @@
+body{background:url(bg.jpg) center fixed repeat;}
+#theme h1 a{color:#b90663;}/*color for main title*/
+#theme h1 strong{color:#0ca3b1;}/*color for the name in main title*/
+#theme header p{color:#e5e5e5;}
+#theme a.caption-title{color:#b90663;border-top:1px dotted #b90663;border-bottom:1px dotted #b90663;}/*color for caption in info panel on hover*/
+#theme div.cap-special h3 a.caption-title{color:#b90663;border:none;}/*color for caption in info panel on hover*/
+#theme section#portfolio{background:#b90663;}/*portfolio background color*/
+#portfolio nav ul#nav-works li{background-color:#b90663;}/*filter navigation background-color*/
+#portfolio nav ul#nav-works li a.current, #portfolio nav ul#nav-works li a:hover{color:#b90663;}/*filter navigation hover font color*/
+#portfolio nav ul#nav-works li#nav-first-child{background-color:#b90663;}
+#portfolio ul li div.work-caption span.year, #portfolio ul li div.work-caption span.type{color:#b90663;}/*year and category item color*/
+#portfolio ul li div.work-caption span.magnify a{color:#b90663;}/*plus button color*/
+#portfolio ul li div.work-caption span.magnify a:hover{background:#b90663;color:#1d1d1d;}
+footer h4{color:#b90663}/*footer h4 color*/
+footer section#footer-map-section ul li small{background-color:#b90663;}
+#theme div#pagination span.arrow a:hover{color:#b90663;}

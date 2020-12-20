@@ -1,0 +1,16 @@
+body{background:url(bg.jpg) center fixed no-repeat;}/*theme background*/
+#theme h1 a{color:#d32800;}/*color for main title*/
+#theme h1 strong{color:#e0c41e;}/*color for the name in main title*/
+#theme header p{color:#e5e5e5;}/*color for header paragraph*/
+#theme a.caption-title{color:#e0c41e;border-top:1px dotted #e0c41e;border-bottom:1px dotted #e0c41e;}/*color for caption in info panel on hover*/
+#theme div.cap-special h3 a.caption-title{color:#e0c41e;border:none;}/*color for caption in info panel on hover*/
+#theme section#portfolio{background:#e0c41e;}/*portfolio background color*/
+#portfolio nav ul#nav-works li{background-color:#e0c41e;}/*filter navigation background-color*/
+#portfolio nav ul#nav-works li a.current, #portfolio nav ul#nav-works li a:hover{color:#e0c41e;}/*filter navigation hover font color*/
+#portfolio nav ul#nav-works li#nav-first-child{background-color:#e0c41e;}
+#portfolio ul li div.work-caption span.year, #portfolio ul li div.work-caption span.type{color:#e0c41e;}/*year and category item color*/
+#portfolio ul li div.work-caption span.magnify a{color:#e0c41e;}/*plus button color*/
+#portfolio ul li div.work-caption span.magnify a:hover{background:#e0c41e;color:#1d1d1d;}
+footer h4{color:#e0c41e}/*footer h4 color*/
+footer section#footer-map-section ul li small{background-color:#e0c41e;}
+#theme div#pagination span.arrow a:hover{color:#e0c41e;}

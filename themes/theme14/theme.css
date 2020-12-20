@@ -1,0 +1,12 @@
+body{background:url(bg.jpg) repeat-x #000;}
+#theme h1 a{color:#16c6cc;}/*color for main title*/
+#theme h1 strong{color:#16cc7d;}/*color for the name in main title*/
+#theme a.caption-title{color:#16c6cc;border-bottom:2px dotted #16c6cc;}/*color for caption in info panel on hover*/
+#theme #portfolio ul li div.work-caption span.type small{background:#16c6cc;color:#e5e5e5;}
+#theme header{background:#1d1d1d;}
+#theme header p{color:#e5e5e5;}
+#theme section#portfolio{background:#179c62;}
+#portfolio nav ul#nav-works li{background-color:#179c62;}
+#portfolio nav ul#nav-works li a.current, #portfolio nav ul#nav-works li a:hover{color:#179c62;}
+#portfolio nav ul#nav-works li#nav-first-child{background-color:#179c62;}
+#theme div#pagination span.arrow a:hover{color:#16c6cc;}
